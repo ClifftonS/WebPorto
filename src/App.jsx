@@ -38,26 +38,26 @@ function App() {
   return (
     <>
       <Mainbg>
-        <div className="container flex flex-col justify-center items-center text-center py-10">
+        <div className="container flex flex-col justify-center items-center text-center py-10 border border-red-500">
           <Main2 />
         </div>
       </Mainbg>
 
       <div className="bg-black w-full h-24"></div>
       <Techbg>
-        <div className="container flex flex-col justify-center items-center text-center py-10">
+        <div className="container flex flex-col justify-center items-center text-center py-10 border border-blue-500">
           <TechStack />
         </div>
       </Techbg>
       <div className="bg-black w-full h-24"></div>
       <Techbg>
-        <div className="container flex flex-col justify-center items-center text-center py-10">
+        <div className="container flex flex-col justify-center items-center text-center py-10 border border-purple-500">
           <Experience />
         </div>
       </Techbg>
       <div className="bg-black w-full h-24"></div>
       <Techbg>
-        <div className="container flex flex-col justify-center items-center text-center py-10">
+        <div className="container flex flex-col justify-center items-center text-center py-10 border border-yellow-500">
           <Projects />
         </div>
       </Techbg>
@@ -66,7 +66,7 @@ function App() {
         <Footer />
       </BackgroundBeamsWithCollision>
       {showLinkdock && (
-        <div className="fixed right-8 bottom-5  ">
+        <div className="fixed right-8 bottom-5  border border-yellow-500">
           <Linkdock />
         </div>
       )}

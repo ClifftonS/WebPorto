@@ -5,7 +5,7 @@ import Contact from "./Contact";
 
 const Footer = () => {
   return (
-    <footer className="max-w-full mx-auto pt-16 pb-10 relative">
+    <footer className="max-w-full mx-auto pt-16 pb-10 relative border border-blue-500">
       <div className=" mx-auto sm:px-10 px-5 mt-48 flex flex-col items-center">
         <h2 className="heading pb-5" data-aos="zoom-in" data-aos-duration="1000">
           Interested in My Personal Website?
