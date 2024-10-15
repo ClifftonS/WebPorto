@@ -3,7 +3,7 @@ import { Mainbg } from "./components/Mainbg";
 import Main2 from "./components/Main2";
 import TechStack from "./components/TechStack";
 import Techbg from "./components/Techbg";
-import Experience from "./components/experience";
+import Experience from "./components/Experience";
 import Linkdock from "./components/Linkdock";
 import Footer from "./components/Footer";
 
