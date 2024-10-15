@@ -59,9 +59,9 @@ function App() {
           <Projects />
         </div>
       </Techbg>
-      <BackgroundBeamsWithCollision>
+      {/* <BackgroundBeamsWithCollision>
         <Footer />
-      </BackgroundBeamsWithCollision>
+      </BackgroundBeamsWithCollision> */}
       {showLinkdock && (
         <div className="fixed right-8 bottom-5">
           <Linkdock />
