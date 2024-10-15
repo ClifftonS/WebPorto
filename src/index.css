@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-5xl md:text-7xl text-center bg-gradient-to-t from-purple-700 to-purple-300 bg-clip-text text-transparent select-none;
+  }
+}
+
+@layer utilities {
+  .secondaryHeading {
+    @apply font-bold text-3xl md:text-5xl text-center bg-gradient-to-b from-purple-200 to-purple-400 bg-clip-text text-transparent;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: url("/scroll.jpg");
+  box-shadow: 0 0 15px rgba(138, 43, 226, 0.75), inset 0 0 10px rgba(138, 43, 226, 0.5);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: rgb(183, 180, 234); */
+  background-image: url("/rocket.gif");
+  background-position: center bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  transform: scale(1.5);
+}
