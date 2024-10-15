@@ -21,10 +21,8 @@ function App() {
     const handleScroll = () => {
       const scrollPosition = window.pageYOffset;
       if (scrollPosition > 20) {
-        // setShowButton(true);
         setShowLinkdock(false);
       } else {
-        // setShowButton(false);
         setShowLinkdock(true);
       }
     };
@@ -38,7 +36,7 @@ function App() {
   return (
     <>
       <Mainbg>
-        <div className="container flex flex-col justify-center items-center text-center py-10 border border-red-500">
+        <div className="container flex flex-col justify-center items-center text-center py-10 ">
           <Main2 />
         </div>
       </Mainbg>
@@ -70,13 +68,6 @@ function App() {
           <Linkdock />
         </div>
       )}
-      {/* {showButton && (
-        <div className="fixed right-8 bottom-5 z-99 ">
-          <button onClick={topFunction} id="myBtn" className="text-white">
-            Top
-          </button>
-        </div>
-      )} */}
     </>
   );
 }
