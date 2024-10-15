@@ -54,19 +54,19 @@ function App() {
         </div>
       </Techbg>
       <div className="bg-black w-full h-24"></div>
-      <Techbg>
+      {/* <Techbg>
         <div className="container flex flex-col justify-center items-center text-center py-10">
           <Projects />
         </div>
-      </Techbg>
+      </Techbg> */}
       {/* <BackgroundBeamsWithCollision>
         <Footer />
       </BackgroundBeamsWithCollision> */}
-      {showLinkdock && (
+      {/* {showLinkdock && (
         <div className="fixed right-8 bottom-5">
           <Linkdock />
         </div>
-      )}
+      )} */}
     </>
   );
 }
