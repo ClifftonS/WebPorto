@@ -1,5 +1,4 @@
 import React from "react";
-import { MacbookScroll } from "./ui/macbook-scroll";
 import { projects } from "../data";
 import { FaLocationArrow } from "react-icons/fa";
 function Projects() {
@@ -8,7 +7,6 @@ function Projects() {
       <h2 className="heading mb-24" data-aos="zoom-in" data-aos-duration="1000">
         Recent Projects
       </h2>
-      {/* <MacbookScroll src={`/experience/Assistant.jpeg`} showGradient={false} /> */}
       <div className="flex flex-wrap justify-center gbody ">
         {projects
           .sort((a, b) => b.id - a.id)

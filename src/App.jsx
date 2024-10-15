@@ -13,7 +13,6 @@ import "aos/dist/aos.css";
 import Projects from "./components/Projects";
 
 function App() {
-  // const [showButton, setShowButton] = useState(false);
   useEffect(() => {
     AOS.init();
   }, []);
@@ -35,10 +34,7 @@ function App() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  // function topFunction() {
-  //   document.body.scrollTop = 0;
-  //   document.documentElement.scrollTop = 0;
-  // }
+
   return (
     <>
       <Mainbg>
