@@ -59,8 +59,7 @@ function App() {
           <Projects />
         </div>
       </Techbg>
-      <div className="bg-black w-full h-24"></div>
-      <BackgroundBeamsWithCollision className="border border-red-500">
+      <BackgroundBeamsWithCollision>
         <Footer />
       </BackgroundBeamsWithCollision>
       {showLinkdock && (
