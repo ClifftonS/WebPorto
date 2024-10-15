@@ -35,10 +35,10 @@ function Main2() {
           </svg>
         </span>
       </div>
-      <h2 className="mt-7 text-2xl relative z-20 md:text-3xl lg:text-4xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
+      <h2 className="mt-7 text-2xl relative z-20 md:text-3xl lg:text-4xl font-bold text-center text-white font-sans tracking-tight">
         I&apos;m <Highlight>Cliffton Soenarto</Highlight>
       </h2>
-      <h2 className="mt-2 text-2xl relative z-20 md:text-3xl lg:text-4xl font-bold text-center text-black dark:text-white font-sans tracking-tight">Welcome to My Personal Website</h2>
+      <h2 className="mt-2 text-2xl relative z-20 md:text-3xl lg:text-4xl font-bold text-center text-white font-sans tracking-tight">Welcome to My Personal Website</h2>
 
       <TextRevealCard className="bg-transparent mb-4" text="Enthusiast of being a" revealText="Developer"></TextRevealCard>
 

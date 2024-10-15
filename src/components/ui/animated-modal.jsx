@@ -25,7 +25,7 @@ export function Modal({ children }) {
 export const ModalTrigger = ({ children, className }) => {
   const { setOpen } = useModal();
   return (
-    <button className={cn("px-4 py-2 rounded-md text-black dark:text-white text-center relative overflow-hidden", className)} onClick={() => setOpen(true)}>
+    <button className={cn("px-4 py-2 rounded-md text-white text-center relative overflow-hidden", className)} onClick={() => setOpen(true)}>
       {children}
     </button>
   );
@@ -67,7 +67,7 @@ export const ModalBody = ({ children, className }) => {
 
           <motion.div
             ref={modalRef}
-            className={cn("min-h-[50%] max-h-[90%] md:max-w-[30%] bg-white dark:bg-neutral-950 border border-transparent dark:border-neutral-800 md:rounded-2xl relative z-50 flex flex-col flex-1 overflow-hidden", className)}
+            className={cn("min-h-[50%] max-h-[90%] md:max-w-[30%] bg-neutral-950 border border-neutral-800 md:rounded-2xl relative z-50 flex flex-col flex-1 overflow-hidden", className)}
             initial={{
               opacity: 0,
               scale: 0.5,
@@ -105,7 +105,7 @@ export const ModalContent = ({ children, className }) => {
 };
 
 export const ModalFooter = ({ children, className }) => {
-  return <div className={cn("flex justify-end p-4 bg-gray-100 dark:bg-neutral-900", className)}>{children}</div>;
+  return <div className={cn("flex justify-end p-4 bg-neutral-900", className)}>{children}</div>;
 };
 
 const Overlay = ({ className }) => {
@@ -141,7 +141,7 @@ const CloseIcon = () => {
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
-        className="text-black dark:text-white h-4 w-4 group-hover:scale-125 group-hover:rotate-3 transition duration-200"
+        className="text-white h-4 w-4 group-hover:scale-125 group-hover:rotate-3 transition duration-200"
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
         <path d="M18 6l-12 12" />
