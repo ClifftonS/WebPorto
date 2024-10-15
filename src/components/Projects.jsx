@@ -11,7 +11,7 @@ function Projects() {
         {projects
           .sort((a, b) => b.id - a.id)
           .map((project) => (
-            <div key={project.id} data-aos="fade-up" data-aos-duration="1000" className={` items-center flex  justify-center w-full mb-40`}>
+            <div key={project.id} className={` items-center flex  justify-center w-full mb-40`}>
               <div className="xl:w-1/2 max-xl:w-[70%] items-start ">
                 <div className="mb-5 flex justify-center">
                   <img src={project.img} alt="Project1" height={700} width={700} className={`rounded-lg shadow-2xl shadow-black-200 dark:shadow-slate-800 transition ease-in-out`} />
