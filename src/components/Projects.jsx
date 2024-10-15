@@ -7,7 +7,7 @@ function Projects() {
       <h2 className="heading mb-24" data-aos="zoom-in" data-aos-duration="1000">
         Recent Projects
       </h2>
-      <div className="flex flex-wrap justify-center gbody border border-red-500">
+      <div className="flex flex-wrap justify-center gbody">
         {projects
           .sort((a, b) => b.id - a.id)
           .map((project) => (

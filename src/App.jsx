@@ -54,11 +54,11 @@ function App() {
         </div>
       </Techbg>
       <div className="bg-black w-full h-24"></div>
-      <Techbg>
+      <div className="bg-black border border-red-500">
         <div className="container flex flex-col justify-center items-center text-center py-10">
           <Projects />
         </div>
-      </Techbg>
+      </div>
       <BackgroundBeamsWithCollision>
         <Footer />
       </BackgroundBeamsWithCollision>
